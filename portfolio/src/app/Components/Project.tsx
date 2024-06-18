@@ -112,6 +112,39 @@ export default function Header() {
             </div>
           </div>
         </div>
+        <div className={styles.project}>
+          <div className={styles.projectText}>
+            <h3>Find the number game.</h3>
+            <p>
+              This project is a game to find a specific number between a minimum
+              and a maximum. There is a level with the help of the "machine"
+              where I applied binary search to find the number between 1 and 1
+              millon with 20 tries, and never fails.
+            </p>
+            <Link
+              href={
+                "https://ignaciogalceran.github.io/LabNet2023/Lab.Ejercicio5/Ejercicio5.html"
+              }
+              target={"_blank"}
+            >
+              Click here to go to the page
+            </Link>
+          </div>
+          <div className={styles.stack}>
+            <div>
+              <span>Javascript</span>
+              <Image src={"/javascript.svg"} width={30} height={30} alt="" />
+            </div>
+            <div>
+              <span>HTML5</span>
+              <Image src={"/html.svg"} width={30} height={30} alt="" />
+            </div>
+            <div>
+              <span>CSS3</span>
+              <Image src={"/css.svg"} width={30} height={30} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
