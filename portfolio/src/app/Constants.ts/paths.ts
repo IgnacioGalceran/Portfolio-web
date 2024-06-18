@@ -1,25 +1,28 @@
 import { HeaderList } from "../Types/HeaderList";
-import { URL } from "./url";
+
+export const url = process.env.NEXT_PUBLIC_URL || "";
+
+console.log(process.env.NEXT_PUBLIC_URL);
 
 export const headerList: HeaderList[] = [
   {
-    path: `${URL}/`,
+    path: `${url}/`,
     title: "Hello",
   },
   {
-    path: `${URL}/Portfolio/About`,
+    path: `${url}/Portfolio/About`,
     title: "About",
   },
   {
-    path: `${URL}/Portfolio/Projects`,
+    path: `${url}/Portfolio/Projects`,
     title: "Projects",
   },
   {
-    path: `${URL}/Portfolio/Skills`,
+    path: `${url}/Portfolio/Skills`,
     title: "Skills",
   },
   {
-    path: `${URL}/Portfolio/Contact`,
+    path: `${url}/Portfolio/Contact`,
     title: "Contact",
   },
 ];

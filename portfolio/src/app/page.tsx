@@ -4,7 +4,7 @@ import { useDarkMode } from "./Context/DarkMode";
 
 import styles from "./page.module.css";
 import Link from "next/link";
-import { URL } from "./Constants.ts/url";
+import { url } from "./Constants.ts/paths";
 
 export default function Home() {
   const { isDarkMode } = useDarkMode();
@@ -86,7 +86,7 @@ export default function Home() {
           apps connected with REST API's. I help people to build ambitious yet
           accessible web projects - <b>the wilder, the better.</b>
         </span>
-        <Link href={`${URL}/Portfolio/About`}>
+        <Link href={`${url}/Portfolio/About`}>
           <button className={styles.about}>
             <b>About me</b>
           </button>
