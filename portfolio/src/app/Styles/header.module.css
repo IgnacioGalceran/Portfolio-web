@@ -9,11 +9,11 @@
   padding: 20px;
   box-shadow: 0 0 10px rgba(63, 63, 63, 0.1), 0 4px 8px rgba(71, 71, 71, 0.2);
   z-index: 100;
-  background: var(--background-color);
+  background-image: var(--background-color);
 }
 
 .darkHeader {
-  background: var(--darkmode-background-color);
+  background-image: var(--darkmode-background-color);
   box-shadow: 0 0 10px rgba(139, 139, 139, 0.1),
     0 4px 8px rgba(116, 116, 116, 0.2);
 }
@@ -23,7 +23,6 @@
   display: flex;
   gap: 0.5rem;
   max-height: 100px;
-  overflow: hidden;
   transition: max-height 0.3s ease;
 }
 
