@@ -97,7 +97,7 @@ export default function Home() {
         <h3>Here are some of my recent web projects.</h3>
         <div className={styles.projectList}>
           <div className={styles.project}>
-            <div>
+            <div className={styles.projectText}>
               <h3>Stock management app.</h3>
               <p>
                 This project is a web-based auto parts inventory management
@@ -128,7 +128,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.project}>
-            <div>
+            <div className={styles.projectText}>
               <h3>Leasing and Pawn Loan Calculator.</h3>
               <p>
                 This is a public web calculator designed for a business in the
@@ -166,7 +166,7 @@ export default function Home() {
           </div>
 
           <div className={styles.project}>
-            <div>
+            <div className={styles.projectText}>
               <h3>Gym administration app.</h3>
               <p>
                 This project is an app designed to manage gym classes and
