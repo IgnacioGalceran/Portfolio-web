@@ -1,12 +1,12 @@
 "use client";
+import { useState } from "react";
 import { useDarkMode } from "@/app/Context/DarkMode";
-import { headerList } from "../Constants.ts/paths";
+import { headerList } from "../Constants/paths";
 import { GetPathname } from "../Helpers/pathname";
-
-import styles from "@/app/Styles/header.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+
+import styles from "@/app/Styles/header.module.css";
 
 export default function Header() {
   const [openHeader, setOpenHeader] = useState<boolean>(false);

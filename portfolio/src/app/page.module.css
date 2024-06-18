@@ -47,8 +47,8 @@
 .container {
   display: flex;
   justify-content: center;
-  gap: 50px;
   padding: 20px 0;
+  gap: 20px;
 }
 
 .section1 .letters,
@@ -86,14 +86,14 @@
 }
 
 .email {
-  width: 55px;
+  width: 65px;
   height: 60px;
   padding: 10px;
   border-radius: 10px;
 }
 
 .whatsapp {
-  width: 65px;
+  width: 70px;
   height: 60px;
   padding: 10px;
   border-radius: 10px;
@@ -107,7 +107,8 @@
 }
 
 .darkSection .email:hover,
-.darkSection .whatsapp:hover .darkSection .github:hover {
+.darkSection .whatsapp:hover,
+.darkSection .github:hover {
   box-shadow: 0 0 10px rgba(139, 139, 139, 0.1),
     0 4px 8px rgba(116, 116, 116, 0.2);
 }
