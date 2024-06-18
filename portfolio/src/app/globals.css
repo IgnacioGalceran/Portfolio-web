@@ -1,0 +1,72 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  --background-color: linear-gradient(
+    to right top,
+    #bbbbbb,
+    #bfbfc0,
+    #c2c4c5,
+    #c5c8ca,
+    #c8cdce,
+    #cbd1d1,
+    #cfd4d5,
+    #d2d8d8,
+    #d7dcdc,
+    #dcdfe0,
+    #e1e3e3,
+    #e6e7e7
+  );
+  --text-color: #1e3a4d;
+  --text-hover: #4e86a0;
+  /* Dark mode */
+  --darkmode-background-color: linear-gradient(
+    to right top,
+    #28292a,
+    #282a2c,
+    #292b2d,
+    #292c2f,
+    #2a2d31,
+    #2a2e32,
+    #2b3033,
+    #2b3134,
+    #2c3234,
+    #2e3434,
+    #313534,
+    #333635
+  );
+  --darkmode-text-color: #a6a8ad;
+  --darkmode-text-hover: #b2e7ff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  background: var(--background-color);
+  color: var(--text-color);
+  transition: background 0.5s;
+}
+
+.dark-mode {
+  background: var(--darkmode-background-color);
+  color: var(--darkmode-text-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}

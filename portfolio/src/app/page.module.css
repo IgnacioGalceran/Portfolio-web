@@ -1,0 +1,319 @@
+.title,
+.subtitle {
+  padding: 30px;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--text-color);
+  z-index: 0;
+}
+
+.subtitle {
+  font-size: 1.7rem;
+}
+
+.darkSection .title,
+.darkSection .subtitle {
+  color: var(--darkmode-text-color);
+}
+
+.title span {
+  color: var(--text-hover);
+  font-size: 3rem;
+}
+
+.argentina {
+  vertical-align: bottom;
+}
+
+.section1,
+.darkSection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  margin-top: 10px;
+  width: 1px;
+  height: 40vh;
+  background-color: var(--text-color);
+}
+
+.darkSection1 .line {
+  background-color: var(--darkmode-text-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 0;
+}
+
+.section1 .letters,
+.darkSection1 .letters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.section1 .word,
+.darkSection1 .word {
+  animation: moveUp 1s ease-in-out infinite alternate;
+  transform-origin: bottom center;
+}
+
+@keyframes moveUp {
+  0%,
+  10% {
+    transform: none;
+    opacity: 1;
+    color: #63b499;
+  }
+  1%,
+  8% {
+    transform: translateY(-5px);
+    color: rgb(230, 67, 67);
+  }
+  4% {
+    transform: translateY(10px);
+    opacity: 1;
+    color: #999898;
+  }
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.github {
+  width: 70px;
+  height: 65px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.darkSection .icon:hover,
+.darkSection .github:hover {
+  box-shadow: 0 0 10px rgba(139, 139, 139, 0.1),
+    0 4px 8px rgba(116, 116, 116, 0.2);
+}
+
+.section .icon:hover,
+section .github:hover {
+  box-shadow: 0 0 10px rgba(63, 63, 63, 0.1), 0 4px 8px rgba(71, 71, 71, 0.2);
+}
+
+.section2,
+.darkSection2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.section2 .title,
+.darkSection2 .title {
+  display: block;
+  width: 100%;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  font-size: 2.3rem;
+}
+
+.darkSection2 .title {
+  color: var(--darkmode-text-color);
+}
+
+.subrayado {
+  width: 85px;
+  height: 5px;
+  background-color: var(--text-hover);
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.text {
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+
+.about {
+  padding: 16px 80px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  border: 3px solid var(--text-hover);
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.about:hover {
+  background-color: var(--text-hover);
+  color: var(--darkmode-text-color);
+}
+
+.darkSection2 .about:hover {
+  background-color: var(--darkmode-text-hover);
+  color: var(--text-color);
+}
+
+.darkSection2 .about {
+  color: var(--darkmode-text-color);
+  border: 3px solid var(--darkmode-text-hover);
+}
+
+.darkProjects,
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0;
+}
+
+.darkProjects h2,
+.projects h2 {
+  font-size: 3rem;
+}
+
+.projectList {
+  margin-top: 100px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 40px;
+  border-top: 1px solid rgb(146, 146, 146);
+}
+
+.project div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project a {
+  color: #369c7a;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.project a:hover {
+  color: #63b499;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.project p {
+  text-align: center;
+}
+
+.projectImage {
+  width: 90vw;
+  height: 52vw;
+  box-shadow: 0 0 10px rgba(63, 63, 63, 0.1), 0 4px 8px rgba(71, 71, 71, 0.2);
+}
+
+.project .stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.stack span {
+  font-weight: bolder;
+  padding: 10px 0;
+}
+
+@media only screen and (min-width: 800px) {
+  .title,
+  .subtitle {
+    width: 50%;
+    padding: 30px;
+    font-size: 5rem;
+  }
+
+  .title span {
+    font-size: 5rem;
+  }
+
+  .subtitle {
+    font-size: 1.7rem;
+  }
+
+  .container {
+    width: 50%;
+  }
+
+  .section1,
+  .darkSection1 {
+    width: 50%;
+  }
+
+  .section2,
+  .darkSection2 {
+    align-items: flex-start;
+  }
+
+  .section2 .title,
+  .darkSection2 .title {
+    width: 70%;
+    text-align: start;
+    padding: 0;
+    font-size: 4.5rem;
+  }
+
+  .subrayado {
+    width: 150px;
+    height: 6px;
+  }
+
+  .text {
+    display: block;
+    width: 55%;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    letter-spacing: 0.7px;
+  }
+
+  .projectImage {
+    width: 45vw;
+    height: 23.5vw;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 0;
+    border-top: 1px solid rgb(146, 146, 146);
+  }
+
+  .project .stack {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .project h3 {
+    font-size: 2rem;
+  }
+}

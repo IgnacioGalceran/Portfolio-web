@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30% 5% 0;
+  z-index: 0;
+}
+
+@media only screen and (min-width: 800px) {
+  .main {
+    margin: 12% 10% 0;
+  }
+}
