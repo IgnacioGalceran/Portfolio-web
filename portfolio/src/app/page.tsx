@@ -147,16 +147,16 @@ export default function Home() {
                 <Image src={"/angular.svg"} width={30} height={30} alt="" />
               </div>
               <div>
-                <span>Typescript</span>
-                <Image src={"/typescript.svg"} width={30} height={30} alt="" />
-              </div>
-              <div>
                 <span>HTML5</span>
                 <Image src={"/html.svg"} width={30} height={30} alt="" />
               </div>
               <div>
                 <span>CSS3</span>
                 <Image src={"/css.svg"} width={30} height={30} alt="" />
+              </div>
+              <div>
+                <span>.NET Core</span>
+                <Image src={"/net.svg"} width={30} height={30} alt="" />
               </div>
               <div>
                 <span>SQL Server</span>
