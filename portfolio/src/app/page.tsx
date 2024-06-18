@@ -29,7 +29,7 @@ export default function Home() {
         <div className={styles.container}>
           <Link href="mailto:igna.galceran@gmail.com">
             <Image
-              className={styles.icon}
+              className={styles.email}
               src={"/gmail.png"}
               width={40}
               height={40}
@@ -60,7 +60,7 @@ export default function Home() {
 
           <Link href="https://wa.me/+5493462536843">
             <Image
-              className={styles.icon}
+              className={styles.whatsapp}
               src={"/whatsapp.png"}
               width={45}
               height={45}
@@ -155,11 +155,11 @@ export default function Home() {
                 <Image src={"/css.svg"} width={30} height={30} alt="" />
               </div>
               <div>
-                <span>.NET Core</span>
+                <span>.NET</span>
                 <Image src={"/net.svg"} width={30} height={30} alt="" />
               </div>
               <div>
-                <span>SQL Server</span>
+                <span>SQL</span>
                 <Image src={"/sqlserver.svg"} width={30} height={30} alt="" />
               </div>
             </div>
