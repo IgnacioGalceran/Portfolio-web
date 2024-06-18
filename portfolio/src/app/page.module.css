@@ -157,8 +157,9 @@ section .github:hover {
   padding: 16px 80px;
   margin-bottom: 20px;
   color: var(--text-color);
-  border: 3px solid var(--text-hover);
-  background-color: transparent;
+  border: 2px solid var(--text-hover);
+  background: rgba(18, 94, 133, 0.103);
+  box-shadow: 0 0 10px rgba(63, 63, 63, 0.1), 0 4px 8px rgba(71, 71, 71, 0.2);
   border-radius: 10px;
   font-size: 1rem;
   cursor: pointer;
@@ -177,6 +178,9 @@ section .github:hover {
 .darkSection2 .about {
   color: var(--darkmode-text-color);
   border: 3px solid var(--darkmode-text-hover);
+  background: rgba(18, 94, 133, 0.103);
+  box-shadow: 0 0 10px rgba(139, 139, 139, 0.1),
+    0 4px 8px rgba(116, 116, 116, 0.2);
 }
 
 .darkProjects,
@@ -192,7 +196,7 @@ section .github:hover {
 }
 
 .projectList {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .darkProjects .project,
@@ -201,13 +205,16 @@ section .github:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 40px 40px;
+  padding: 40px;
   border-top: 1px solid var(--text-hover);
+  box-shadow: 0 0 10px rgba(139, 139, 139, 0.1),
+    0 4px 8px rgba(116, 116, 116, 0.2);
   background: rgba(18, 94, 133, 0.103);
 }
 
 .projects .project {
   background: rgba(36, 107, 148, 0.11);
+  box-shadow: 0 0 10px rgba(63, 63, 63, 0.1), 0 4px 8px rgba(71, 71, 71, 0.2);
 }
 
 .project div {
@@ -234,12 +241,6 @@ section .github:hover {
 
 .project p {
   text-align: center;
-}
-
-.projectImage {
-  width: 90vw;
-  height: 52vw;
-  box-shadow: 0 0 10px rgba(63, 63, 63, 0.1), 0 4px 8px rgba(71, 71, 71, 0.2);
 }
 
 .project .stack {
@@ -319,7 +320,7 @@ section .github:hover {
     align-items: center;
     justify-content: space-evenly;
     gap: 80px;
-    padding: 80px 0;
+    padding: 60px 0;
   }
 
   .project .stack {

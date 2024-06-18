@@ -106,7 +106,7 @@ export default function Home() {
             </div>
             <div className={styles.stack}>
               <div>
-                <span>React</span>
+                <span>ReactJS</span>
                 <Image src={"/react.svg"} width={30} height={30} alt="" />
               </div>
               <div>
