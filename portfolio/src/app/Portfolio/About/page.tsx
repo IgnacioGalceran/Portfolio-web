@@ -40,9 +40,9 @@ export default function About() {
       >
         <Image
           className={aboutStyles.field}
-          src={"/field.png"}
-          width={864}
-          height={1376}
+          src={"/field.jpg"}
+          width={1200}
+          height={800}
           alt=""
         />
         <div>

@@ -4,18 +4,18 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
   --background-color: linear-gradient(
     to right top,
-    #dadbde,
-    #dedfe1,
-    #e1e3e5,
-    #e5e6e8,
-    #e9eaeb,
-    #ebeced,
-    #eceff0,
-    #eef1f2,
-    #edf2f3,
-    #edf3f4,
-    #ecf5f5,
-    #ecf6f5
+    #c7c7c7,
+    #cfcfcf,
+    #d7d7d7,
+    #dfdfdf,
+    #e7e7e7,
+    #ebebec,
+    #eeeef0,
+    #f2f2f5,
+    #f2f2f7,
+    #f1f2fa,
+    #f0f3fc,
+    #eef3ff
   );
   --text-color: #1e3a4d;
   --text-hover: #4e86a0;
