@@ -2,8 +2,6 @@ import { HeaderList } from "../Types/HeaderList";
 
 export const url = process.env.NEXT_PUBLIC_URL || "";
 
-console.log(process.env.NEXT_PUBLIC_URL);
-
 export const headerList: HeaderList[] = [
   {
     path: `${url}/`,

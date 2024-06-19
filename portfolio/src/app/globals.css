@@ -22,18 +22,18 @@
   /* Dark mode */
   --darkmode-background-color: linear-gradient(
     to right top,
-    #28292a,
-    #282a2c,
-    #292b2d,
-    #292c2f,
-    #2a2d31,
-    #2a2e32,
-    #2b3033,
-    #2b3134,
-    #2c3234,
-    #2e3434,
-    #313534,
-    #333635
+    #131414,
+    #131515,
+    #131515,
+    #141616,
+    #141617,
+    #151618,
+    #151718,
+    #161719,
+    #16181a,
+    #17181b,
+    #17191b,
+    #18191c
   );
   --darkmode-text-color: #a6a8ad;
   --darkmode-text-hover: #b2e7ff;

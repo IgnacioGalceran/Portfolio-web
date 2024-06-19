@@ -314,14 +314,23 @@ section .github:hover {
     height: 23.5vw;
   }
 
+  .projectList {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
   .darkProjects .project,
   .projects .project {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 80px;
-    padding: 60px 0;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    width: 35vw;
+    border: 1px solid var(--text-hover);
   }
 
   .project .stack {
@@ -331,7 +340,7 @@ section .github:hover {
   }
 
   .projectText {
-    width: 45%;
+    width: 96%;
   }
 
   .project h3 {

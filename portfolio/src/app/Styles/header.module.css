@@ -15,7 +15,7 @@
 .darkHeader {
   background-image: var(--darkmode-background-color);
   box-shadow: 0 0 10px rgba(139, 139, 139, 0.1),
-    0 4px 8px rgba(116, 116, 116, 0.2);
+    0 4px 8px rgba(116, 116, 116, 0.082);
 }
 
 .header ul,

@@ -25,6 +25,7 @@ export default function Header() {
           return (
             <li
               key={index}
+              onClick={() => setOpenHeader(false)}
               className={
                 ePath[ePath.length - 1] === path[path.length - 1]
                   ? styles.active
