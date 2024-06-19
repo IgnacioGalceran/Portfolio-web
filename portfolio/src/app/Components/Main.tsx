@@ -17,7 +17,7 @@ export default function Header() {
           <span>.</span>
         </h1>
         <h2 className={styles.subtitle}>
-          I'm a creative <b>Fullstack developer</b> from Rosario, Argentina{" "}
+          I'm a creative <b>Fullstack developer</b> from Villa Cañás, Argentina{" "}
           <Image
             className={styles.argentina}
             src={"/argentina.png"}
@@ -27,7 +27,7 @@ export default function Header() {
           />
         </h2>
         <div className={styles.container}>
-          <Link href="mailto:igna.galceran@gmail.com">
+          <Link href="mailto:igna.galceran@gmail.com" target={"_blank"}>
             <Image
               className={styles.email}
               src={"/gmail.png"}
@@ -37,7 +37,7 @@ export default function Header() {
             />
           </Link>
           {isDarkMode ? (
-            <Link href="https://github.com/IgnacioGalceran">
+            <Link href="https://github.com/IgnacioGalceran" target={"_blank"}>
               <Image
                 className={styles.github}
                 src={"/github-dark.png"}
@@ -47,7 +47,7 @@ export default function Header() {
               />
             </Link>
           ) : (
-            <Link href="https://github.com/IgnacioGalceran">
+            <Link href="https://github.com/IgnacioGalceran" target={"_blank"}>
               <Image
                 className={styles.github}
                 src={"/github-light.png"}
@@ -57,8 +57,7 @@ export default function Header() {
               />
             </Link>
           )}
-
-          <Link href="https://wa.me/+5493462536843">
+          <Link href="https://wa.me/+5493462536843" target={"_blank"}>
             <Image
               className={styles.whatsapp}
               src={"/whatsapp.png"}

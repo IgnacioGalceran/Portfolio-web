@@ -1,0 +1,174 @@
+.title,
+.subtitle {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 10px;
+  color: var(--text-color);
+  z-index: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+}
+
+.aboutDarkSection .title,
+.aboutDarkSection .subtitle {
+  color: var(--darkmode-text-color);
+}
+
+.aboutSection .title {
+  text-align: start;
+}
+
+.title span,
+.subtitle span {
+  color: var(--text-hover);
+  font-size: 3rem;
+}
+
+.aboutSection {
+  margin-top: 50px;
+}
+
+.text {
+  font-size: 18px;
+  padding: 10px 0;
+  letter-spacing: 1px;
+}
+
+.darkHistory,
+.history {
+  margin: 30px 0;
+}
+
+.darkHistory .field,
+.history .field {
+  width: 90vw;
+  height: auto;
+  padding: 10px 0;
+  border-radius: 50px;
+}
+
+.darkHobbies,
+.hobbies {
+  margin-bottom: 50px;
+}
+
+.darkHobbies .subtitle,
+.hobbies .subtitle {
+  font-size: 2.4rem;
+}
+
+.darkHobbies .subtitle {
+  color: var(--darkmode-text-color);
+}
+
+.avion {
+  width: 90vw;
+  height: auto;
+  border-radius: 50px;
+}
+
+.darkHobbies .avion {
+  box-shadow: 0 4px 8px rgba(180, 180, 180, 0.61);
+}
+
+.hobbies .avion {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.61);
+}
+
+@media only screen and (min-width: 800px) {
+  .title,
+  .subtitle {
+    width: 50%;
+    font-size: 5rem;
+  }
+
+  .title span {
+    font-size: 5rem;
+  }
+
+  .subtitle {
+    font-size: 1.6rem;
+  }
+
+  .text {
+    display: block;
+    width: 50%;
+  }
+
+  .darkHistory,
+  .history {
+    margin: 60px 0 150px;
+  }
+
+  .darkHobbies,
+  .hobbies {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 96vw;
+  }
+
+  .darkHobbies div,
+  .hobbies div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+  }
+
+  .darkHobbies .subtitle,
+  .darkHobbies .text,
+  .hobbies .text,
+  .hobbies .subtitle {
+    width: 90%;
+    padding: 0 20px;
+  }
+
+  .darkHobbies .subtitle,
+  .hobbies .subtitle {
+    margin-bottom: 20px;
+  }
+
+  .avion {
+    width: 45vw;
+    height: auto;
+  }
+
+  .darkHistory,
+  .history {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-self: center;
+    gap: 100px;
+    width: 96vw;
+  }
+
+  .darkHistory div,
+  .history div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45vw;
+  }
+
+  .darkHistory .text,
+  .history .text {
+    width: 100%;
+  }
+
+  .darkHistory .field,
+  .history .field {
+    width: 20vw;
+    height: auto;
+    padding: 0;
+  }
+
+  .field {
+    box-shadow: 0 4px 8px rgba(53, 156, 122, 0.61);
+  }
+}
