@@ -67,15 +67,7 @@
 .avion {
   width: 90vw;
   height: auto;
-  border-radius: 50px;
-}
-
-.darkHobbies .avion {
-  box-shadow: 0 4px 8px rgba(180, 180, 180, 0.61);
-}
-
-.hobbies .avion {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.61);
+  border-radius: 10px;
 }
 
 @media only screen and (min-width: 800px) {
@@ -109,6 +101,7 @@
     justify-content: center;
     align-self: center;
     width: 96vw;
+    padding: 150px 0;
   }
 
   .darkHobbies div,
@@ -136,6 +129,7 @@
   .avion {
     width: 45vw;
     height: auto;
+    border-radius: 40px;
   }
 
   .darkHistory,
@@ -143,8 +137,8 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    align-self: center;
     gap: 100px;
+    align-self: center;
     width: 96vw;
   }
 
@@ -152,8 +146,14 @@
   .history div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 45vw;
+    width: 50vw;
+  }
+
+  .darkHistory .field,
+  .history .field {
+    width: 26vw;
+    height: auto;
+    padding: 0;
   }
 
   .darkHistory .text,
@@ -161,14 +161,27 @@
     width: 100%;
   }
 
+  .darkHobbies .avion {
+    box-shadow: 0 4px 8px rgba(180, 180, 180, 0.171);
+  }
+
+  .hobbies .avion {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.61);
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .darkHistory div,
+  .history div {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+  }
+
   .darkHistory .field,
   .history .field {
     width: 20vw;
     height: auto;
     padding: 0;
-  }
-
-  .field {
-    box-shadow: 0 4px 8px rgba(53, 156, 122, 0.61);
   }
 }
