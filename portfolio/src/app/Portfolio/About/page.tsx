@@ -25,7 +25,7 @@ export default function About() {
         </h1>
         <h2 className={aboutStyles.subtitle}>
           I'm a <b>Systems Engineering</b> student and <b>developer</b> who has
-          been building web apps since 2021. I specialise in accessibility,
+          been building web apps since 2021. I specialice in accessibility,
           performance and usability without sacrificing creativity.
         </h2>
       </section>
