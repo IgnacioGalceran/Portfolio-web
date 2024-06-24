@@ -15,8 +15,8 @@ export const headerList: HeaderList[] = [
     path: `${url}/Portfolio/Skills`,
     title: "Skills",
   },
-  {
-    path: `${url}/Portfolio/Contact`,
-    title: "Contact",
-  },
+  // {
+  //   path: `${url}/Portfolio/Contact`,
+  //   title: "Contact",
+  // },
 ];
