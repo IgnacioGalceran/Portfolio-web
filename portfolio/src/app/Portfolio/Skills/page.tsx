@@ -70,7 +70,8 @@ export default function Skills() {
           <div>
             <h2>Backend Skills</h2>
             <p>
-              Express: Experience in creation of servers and RESTful APIs using
+              <span>Express</span>
+              Experience in creation of servers and RESTful APIs using
               Express.js.
             </p>
             <p>
