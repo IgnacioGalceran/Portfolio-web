@@ -17,7 +17,11 @@ export default function Header() {
     <header className={isDarkMode ? styles.darkHeader : styles.header}>
       <ul className={openHeader ? styles.openUl : ""}>
         <div className={styles.menu} onClick={() => setOpenHeader(!openHeader)}>
-          <Image src={"/menu.png"} width={30} height={30} alt="" />
+          {isDarkMode ? (
+            <Image src={"/menu-white.png"} width={30} height={30} alt="" />
+          ) : (
+            <Image src={"/menu-black.png"} width={30} height={30} alt="" />
+          )}
         </div>
         {list.map((e, index: number) => {
           let ePath = e.path.split("/");

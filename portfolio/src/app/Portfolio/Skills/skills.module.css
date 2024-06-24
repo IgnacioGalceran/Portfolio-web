@@ -1,0 +1,83 @@
+.title,
+.subtitle {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 10px;
+  color: var(--text-color);
+  z-index: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+}
+
+.skillsDarkSection .title,
+.skillsDarkSection .subtitle {
+  color: var(--darkmode-text-color);
+}
+
+.skillsSection .title {
+  text-align: start;
+}
+
+.title span,
+.subtitle span {
+  color: var(--text-hover);
+  font-size: 3rem;
+}
+
+.skillsContainer h2 {
+  margin: 20px 0;
+}
+
+.skillsContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  padding: 20px;
+  border-top: 1px solid var(--text-hover);
+  box-shadow: 0 0 10px rgba(139, 139, 139, 0.1),
+    0 4px 8px rgba(116, 116, 116, 0.2);
+  background: rgba(18, 94, 133, 0.103);
+}
+
+.skillsContainer p {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  .title,
+  .subtitle {
+    width: 100%;
+    font-size: 5rem;
+  }
+
+  .title span {
+    font-size: 5rem;
+  }
+
+  .subtitle {
+    font-size: 1.6rem;
+  }
+
+  .text {
+    display: block;
+    width: 50%;
+  }
+
+  .skillsContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .skillsContainer div {
+    justify-content: flex-start;
+    width: 45%;
+  }
+}

@@ -4,6 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 import styles from "@/app/page.module.css";
+import Button from "./Button";
+import { url } from "../Constants/paths";
 
 export default function Header() {
   const { isDarkMode } = useDarkMode();
@@ -12,6 +14,9 @@ export default function Header() {
     <section className={isDarkMode ? styles.darkProjects : styles.projects}>
       <h2>Projects</h2>
       <h3>Here are some of my recent web projects.</h3>
+      <Button
+        props={{ url: `${url}/Portfolio/Skills`, text: "Go to Skills" }}
+      />
       <div className={styles.projectList}>
         <div className={styles.project}>
           <div className={styles.projectText}>

@@ -5,6 +5,7 @@ import Image from "next/image";
 import { url } from "@/app/Constants/paths";
 
 import styles from "@/app/page.module.css";
+import Button from "./Button";
 
 export default function Header() {
   const { isDarkMode } = useDarkMode();
@@ -85,11 +86,9 @@ export default function Header() {
           apps connected with REST API's. I help people to build ambitious yet
           accessible web projects - <b>the wilder, the better.</b>
         </span>
-        <Link href={`${url}/Portfolio/About`}>
-          <button className={styles.about}>
-            <b>About me</b>
-          </button>
-        </Link>
+        <Button
+          props={{ url: `${url}/Portfolio/About`, text: "Go to About me" }}
+        />
       </section>
     </>
   );

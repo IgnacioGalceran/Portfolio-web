@@ -154,36 +154,6 @@ section .github:hover {
   padding: 20px 0;
 }
 
-.about {
-  padding: 16px 80px;
-  margin-bottom: 20px;
-  color: var(--text-color);
-  border: 2px solid var(--text-hover);
-  background: rgba(18, 94, 133, 0.103);
-  box-shadow: 0 0 10px rgba(63, 63, 63, 0.1), 0 4px 8px rgba(71, 71, 71, 0.2);
-  border-radius: 10px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.about:hover {
-  background-color: var(--text-hover);
-  color: var(--darkmode-text-color);
-}
-
-.darkSection2 .about:hover {
-  background-color: var(--darkmode-text-hover);
-  color: var(--text-color);
-}
-
-.darkSection2 .about {
-  color: var(--darkmode-text-color);
-  border: 3px solid var(--darkmode-text-hover);
-  background: rgba(18, 94, 133, 0.103);
-  box-shadow: 0 0 10px rgba(139, 139, 139, 0.1),
-    0 4px 8px rgba(116, 116, 116, 0.2);
-}
-
 .darkProjects,
 .projects {
   display: flex;
@@ -316,7 +286,7 @@ section .github:hover {
 
   .projectList {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
   }
