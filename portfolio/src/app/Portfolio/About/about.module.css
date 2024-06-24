@@ -136,6 +136,7 @@
   .history {
     display: flex;
     flex-direction: row-reverse;
+    align-items: flex-start;
     justify-content: center;
     align-self: center;
     gap: 40px;
@@ -151,7 +152,7 @@
 
   .darkHistory .field,
   .history .field {
-    width: 40vw;
+    width: 50vw;
     height: auto;
     padding: 0;
   }
@@ -180,6 +181,7 @@
   .history div {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     width: 30vw;
   }
 
