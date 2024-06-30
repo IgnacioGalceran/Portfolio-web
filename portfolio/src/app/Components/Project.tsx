@@ -187,6 +187,33 @@ export default function Header() {
             </div>
           </div>
         </div>
+        <div className={styles.project}>
+          <div className={styles.projectText}>
+            <h3>Tic Tac Toe Game</h3>
+            <p>This project is a Tic Tac Toe game, developed with ReactJS</p>
+            <Link href={"https://ta-te-ti-igna.vercel.app"} target={"_blank"}>
+              Click here to go to the page
+            </Link>
+          </div>
+          <div className={styles.stack}>
+            <div>
+              <span>ReactJS</span>
+              <Image src={"/react.svg"} width={30} height={30} alt="" />
+            </div>
+            <div>
+              <span>Typescript</span>
+              <Image src={"/typescript.svg"} width={30} height={30} alt="" />
+            </div>
+            <div>
+              <span>HTML5</span>
+              <Image src={"/html.svg"} width={30} height={30} alt="" />
+            </div>
+            <div>
+              <span>CSS3</span>
+              <Image src={"/css.svg"} width={30} height={30} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
